@@ -1,3 +1,59 @@
-h1{
-    color: red;
+/* Gerais */
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(36, 36, 36);
+}
+
+.row{
+    margin: 0;
+}
+
+.container {
+    padding: 70px 0;
+}
+
+.p, li{
+    color: #4444;
+    font-size: 14px;
+}
+
+/* Barra de Navegação */
+
+header, .navbar {
+    background-color: #343D41;
+}
+
+#nav-container{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#logo{
+    width:75px;
+}
+
+.navbar-brand a{
+    padding: 0;
+    color: #ffff;
+    transition: 1s;
+}
+
+.navbar-brand a:hover{
+    color: rgb(94, 198, 230);
+}
+
+#navbar-links a{
+    color: rgb(255, 255, 255);
+    transition: 1s;
+    
+    
+}
+
+#navbar-links a:hover{
+    color: rgb(94, 198, 230);
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding: 1rem .8rem;
 }
